@@ -1,0 +1,101 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    margin: 1vw;
+}
+
+header{
+    margin: 0 0 1vw 0;
+    border-radius: 10px;
+    height: 10vh;
+    width: 97vw;
+    background-color: #d9666f;
+    display: flex;
+    flex-direction: row;
+}
+
+.link{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.logo{
+    justify-content: start;
+    font-family: Bahnschrift, serif;
+    color: #d9d9d9;
+    margin: 2px;
+    padding: 2px;
+}
+
+header a{
+    color: #d9d9d9;
+    font-family: Bahnschrift, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    font-size: 4vh;
+    text-decoration: none;
+
+}
+
+.info{
+    margin: 0 0 1vw 0;
+    border-radius: 10px;
+    display: flex;
+    height: 49vh;
+    width: 97vw;
+    background-color: #d98989;
+}
+
+.texto{
+    color: #d9d9d9;
+    font-family: Bahnschrift, serif;
+    margin: 90px;
+}
+.image-content {
+    max-width: 25%; /* A imagem não excederá a largura do seu contêiner */
+    height: 70%; /* A altura será ajustada automaticamente para manter a proporção */
+    border-radius: 20px; /* Bordas arredondadas */
+    margin: 30px;
+}
+
+.cards {
+    width: 97vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card{
+    border-radius: 10px;
+    height: 32vh;
+    width: 31.5vw;
+    background-color: #d98989;
+    color: #d9d9d9;
+    font-family: Bahnschrift, serif;
+    text-align: center;
+}
+
+
+.cards p{
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+.imagem {
+    width: 60px;
+    height: auto;
+    margin-bottom: 2px;
+    border-radius: 8px;
+    text-align: center;
+
+}
+.escrita{
+
+}
